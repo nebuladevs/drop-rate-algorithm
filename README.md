@@ -42,7 +42,7 @@ export enum ItemRarity {
 
 O algoritmo simula a morte de um monstro e o calculo de drop rate e item rarity para cada monstro.
 
-Quando um inimigo é morto, o algoritmo gera um número aleatório entre 0-100. Esse valor será usado para checar se ele é menor ou igual ao drop rate do monstro. Ou seja, o drop rate do inimigo limita a quantidade de drop que o jogador pode conseguir ao matar ele.
+Quando um inimigo é morto, o algoritmo gera um número aleatório entre 0-100, simulando um pseudo dado de RPG. Esse valor será usado para checar se ele é menor ou igual ao drop rate do monstro. Ou seja, o drop rate do inimigo limita a quantidade de drop que o jogador pode conseguir ao matar ele.
 
 Caso o jogador tire uma chance de drop menor ou igual ao drop rate do inimigo, o algoritmo começa a separar uma lista de itens que esse monstro pode dropar. Nesse nível é feito um loop entre todos os itens existentes, checando se o nível de raridade do Item é maior que o tipo de raridade que o inimigo pode dropar. Por ex:
 
