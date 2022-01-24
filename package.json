@@ -1,0 +1,14 @@
+{
+  "name": "drop-rate-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "drop": "ts-node-dev src/main.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.10",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.5.5"
+  }
+}
