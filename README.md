@@ -83,3 +83,5 @@ Rarity: 50
 ### Ideias
 
 - Na hora de pegar um item aleatório da lista de possíveis itens, seria interessante de alguma forma checar o nível do player e usar isso como base na aleatoriedade do algoritmo.
+- Alterar os valores dos itens para não confundir a leitura do código
+- Limitar os itens que serão analisados para entrar no loop
