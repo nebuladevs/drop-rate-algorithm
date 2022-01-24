@@ -50,6 +50,36 @@ Caso o jogador tire uma chance de drop menor ou igual ao drop rate do inimigo, o
 
 Com a lista de possíveis itens criada, é gerado um novo número aleatório de acordo com o tamanho dessa lista. E no final é devolvido um item aleatório dessa lista.
 
+### Executando
+
+- Instale os pacotes com o comando `yarn` ou `npm install`
+- Execute no terminal o comando `yarn drop` ou `npm run drop`
+
+O resultado será parecido com esse:
+
+```bash
+===== KILLED ENEMY =====
+Name: Warrior
+
+Drop Rate: 50
+
+Item Rarity: 30
+
+========================
+
+your drop chance is 15 and you have 30% chance to find an item...
+
+Possible Items to Drop: Broken Sword,Wood Sword,Thin Sword,Bronze Sword
+
+===== DROPPED ITEM =====
+
+Name: Thin Sword
+
+Rarity: 50
+
+========================
+```
+
 ### Ideias
 
 - Na hora de pegar um item aleatório da lista de possíveis itens, seria interessante de alguma forma checar o nível do player e usar isso como base na aleatoriedade do algoritmo.
